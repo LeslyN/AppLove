@@ -1,59 +1,23 @@
 # AppLove
 
-* **Track:** _Common Core_
-* **Curso:** _Creando tu primer sitio web interactivo_
-* **Unidad:** _Maquetado web con HTML & CSS_
+Tenemos las siguientes partes para esta web:
+
+1. **Header:** _Contiene un menú de tres viñetas y una imagen_
+2. **Panel negro:** _Contiene una imagen de fondo, un título sobresaliente y un botón_
+3. **Panel servicios:** _Contiene un título Servicios y tres imágenes que describen ciertos servicios_
+4. **Galería de imágenes:** _Contiene un título Work, una imagen principal y una galería de imágenes en tres filas y tres columnas_
+5. **Footer:** _Contiene los derechos de Copyright_
 
 ***
-Para completar tu web **AppLove** hemos creado este repositorio boilerplate (plantilla inicial) con todos los recursos que necesitas. Esto incluye las imágenes y algunas clases CSS que ya hemos creado para ti :)
+Contamos con la siguiente estructura:
 
-## Flujo de trabajo: Empieza por realizar un fork y clonar este repositorio
-
-1. Debes realizar un [**fork**](https://gist.github.com/ivandevp/1de47ae69a5e139a6622d78c882e1f74) de este repositorio
-
-2. Luego deberás **clonar** tu fork en tu máquina. Recuerda que el comando a usar es `git clone` y su estructura normalmente se ve así:
-
-    ```bash
-    git clone https://github.com/<nombre-de-usuario>/AppLove.git
-    ```
+1. Una carpeta de nombre: AppLove.
+2. Dentro de la misma contiene:
+    * Una carpeta assets, la cual contiene nuestra carpeta _images_, para las imágenes que usaremos en todo nuestro proyecto.
+    * Una carpeta _css_, la cual contiene un archivo `main.css`, para los estilos que le daremos a nuestro proyecto.
+3. Tenemos un archivo `index.html`, en el cual se encontrará la estructura de nuestro proyecto.
+4. Por último un archivo `README.md`, el cual nos da a conocer una reseña de nuestro proyecto.
 
 ## Objetivo
 
-El reto consiste en maquetar la web **AppLove**, este es el resultado final:
-
 ![AppLove](https://fotos.subefotos.com/1edc0aab51f1d624da4a24ab86129d87o.png) 
-
-## Detalles adicionales
-
-- Encontrarás un archivo base `index.html` el cual contiene una estructura inicial sobre la que deberás completar tu proyecto.
-
-- En la carpeta `css` tendrás un archivo base `main.css` donde hay clases reutilizables, quiere decir que dichas clases pueden ser usadas más de una vez. Por ejemplo: 
-
-    ```CSS
-    .text-uppercase {
-      text-transform: uppercase;
-    }
-    ```
-
-    >Si usamos la clase `.text-uppercase` en algún texto lo que hará es ponerlo en mayúsculas. De esta manera podrás reutilizar esta clase varias veces. **No olvides enlazar tu archivo `CSS` a tu `HTML`**.
-
-- El `header` tiene que estar **estático**, como se muestra en la siguiente _imagen gif_:
-
-![AppLove-gif](https://fotos.subefotos.com/da068e44cb72b36ba6c4458130c00185o.gif) 
-
-- Dentro de la carpeta `assets` se encuentra la carpeta `images` donde encontrarás todas las imágenes necesarias para completar tu proyecto.
-
-- Deberás **actualizar el archivo `README.md`** explicando el contenido de tu repositorio.
-
-- El tipo de fuente a utilizar será `Raleway`.
-
-## Consideraciones generales
-
-Este reto sera evaluado sobre lo siguiente:
-
-- Pixel perfect (replicar el diseño con exactitud)
-- Nombramiento de clases, id, etc
-- Indentación
-- Estructura de tus archivos
-- Archivo `README.md` actualizado y correctamente redactado
-- Uso de comentarios para hacer tu código más legible

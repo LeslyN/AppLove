@@ -73,9 +73,7 @@ a:hover {
 
 /* Seteando valores*/
 *{
-  border: 0;
   font-family: 'Raleway', sans-serif;
-  margin: 0;
   padding: 0;
   /* alínea el elemento en base a su padre*/
   vertical-align: baseline;
@@ -89,11 +87,7 @@ header {
   z-index: 1;
 }
 
-
-/*Menu estático*/
-
-
-/* Para cada a */
+/*Menu estático - para cada a */
 .container a {
   display: inline-block;
   float: left;
@@ -106,8 +100,8 @@ header {
   left: 85%;
   height: 80px;
   width: 110px;
-  position: absolute;
   padding: 10px 20px; 
+  position: absolute;
   top: 20px;
 }
 
@@ -154,19 +148,15 @@ p {
 
 /* Título - panel two */
 .service {
-  margin-top: 85px;
+  padding-top: 80px; 
   margin-left: 20px;
 }
 
-.title {
-  margin-left: 150px;
-}
 
-/* Posiciones de H5 y H6 de cada imágen - panel two */
+/* Posiciones de H5 y H6 de cada imagen - panel two */
 .h5-h6-left, .h5-h6-center, .h5-h6-right {
-  display: block;
   text-align: center;
-  top: 550px;
+  top: 1090px;
 }
 
 .h5-h6-left {
@@ -190,23 +180,21 @@ p {
 /* Panel Two */
 .panel-two {
   background-color: #f17c72;
-  background-repeat: no-repeat;
   color: #fff;
   display: block;
   height: 100vh;
-  margin-top: 0;
-  padding-top: 1px;
-  position: relative;
+  margin-top: -75px;
 }
 
 /* Imágenes en el Panel Two */
 .image1, .image2, .image3 {
   border: 0;
-  margin-top: 85px;
+  margin-top: 65px;
   max-width: 210px;
   max-height: 210px;
 }
 
+/* Clases image1, image2, image3 reutilizables*/
 .image1{
   float: left;
   margin-left: 200px;
@@ -226,8 +214,7 @@ p {
 /* Panel Three */
 .panel-three {
   display: block;
-  height: 100vh;
-  position: relative;
+  height: 90vh;
 }
 
 .text-h4{
@@ -239,10 +226,14 @@ p {
   max-width: 650px;
 }
 
+.galery-image {
+  margin: 1px;
+}
+
 /* Footer */
 footer {
   margin-top: 1050px;
-  height: 120px;
+  height: 130px;
   background-color: #373B47;
   color: #fff;
   bottom: 0;
@@ -251,6 +242,6 @@ footer {
 
 /* Texto del footer */
 footer p {
-  margin-bottom: 50px;
-  padding-top: 50px;
+  margin-bottom: 40px;
+  padding-top: 40px;
 }

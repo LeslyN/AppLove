@@ -70,184 +70,186 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+/* Seteando valores*/
 *{
+  border: 0;
+  font-family: 'Raleway', sans-serif;
   margin: 0;
   padding: 0;
-  border: 0;
+  /* alínea el elemento en base a su padre*/
   vertical-align: baseline;
 }
 
+/* Posicionando el Header*/
 header {
-  width: 100%;
-  /*border: 1px solid #000;*/
-  z-index: 1;
-  position: fixed;
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
 
 
 /*Menu estático*/
-div .container {
-  font-family: 'Raleway', sans-serif;
-  float: right;
-  background-image: url(../assets/images/logo.png) -10px -10px; 
-  width: 50px;
-  height: 50px;
-  /*display: inline-block;*/
-}
+
 
 /* Para cada a */
 .container a {
   display: inline-block;
-  position: relative;
   float: left;
   line-height: 80px;
   padding: 10px 20px;
-}
-
-.logo {
-  padding: 10px 20px; 
-  width: 110px;
-  height: 80px;
-  position: absolute;
-  left: 85%;
-  top: 20px;
-}
-
-.panel-one {
-  background-image: url(../assets/images/bg-home.jpg);
-  height: 80vh;
-  padding-top: 10px;
-  color: #fff;
-  display: block;
-  background-repeat: no-repeat;
-  z-index: -1;
-  top: 90px;
   position: relative;
 }
 
+.logo {
+  left: 85%;
+  height: 80px;
+  width: 110px;
+  position: absolute;
+  padding: 10px 20px; 
+  top: 20px;
+}
+
+/* Panel One */
+.panel-one {
+  background-image: url(../assets/images/bg-home.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  display: block;
+  height: 85vh;
+  padding-top: 10px;
+  position: relative;
+  top: 90px;
+}
+
 .center {
-  width: 100%;
-  margin: auto;
   text-align: center;
+  width: 100%;
 }
 
 div h2 {
   margin: 50px;
 }
 
-
+/* Botón View - panel one */
 div .btn-view {
   background-color: #2ecc71;
-  width: 30px;
-  height: 30px;
-  padding: 15px;
-  color: inherit;
   border-radius: 5px; 
+  color: inherit;
+  padding: 15px;
+  height: 30px;
+  width: 30px;
 }
 
+/* tamaño de letra - panel one */
 section div h1 { 
   font-size: 45px;
 }
 
+/* Margen entre texto y botón */
 p {
   margin-bottom: 20px;
-
 }
 
+/* Título - panel two */
 .service {
   margin-top: 85px;
+  margin-left: 20px;
 }
 
 .title {
   margin-left: 150px;
 }
 
+/* Posiciones de H5 y H6 de cada imágen - panel two */
 .h5-h6-left, .h5-h6-center, .h5-h6-right {
   display: block;
   text-align: center;
-  top: 500px;
+  top: 550px;
 }
 
 .h5-h6-left {
   float: left;
-  position: absolute;
   margin-left: 230px;
+  position: absolute;
 }
 
 .h5-h6-center {
+  float: left;
   margin-left: 600px;
   position: absolute;
-  float: left;
 }
 
 .h5-h6-right {
   float: right;
-  position: absolute;
   margin-left: 950px; 
+  position: absolute;
 }
 
+/* Panel Two */
 .panel-two {
   background-color: #f17c72;
-  height: 90vh;
+  background-repeat: no-repeat;
   color: #fff;
   display: block;
-  background-repeat: no-repeat;
-  position: relative;
-  top: 45px;
+  height: 100vh;
+  margin-top: 0;
   padding-top: 1px;
+  position: relative;
 }
 
+/* Imágenes en el Panel Two */
 .image1, .image2, .image3 {
   border: 0;
-  display: inline-block;
+  margin-top: 85px;
+  max-width: 210px;
+  max-height: 210px;
 }
 
 .image1{
-  position: relative;
-  padding-left: 15px;
   float: left;
-  max-width: 210px;
-  max-height: 210px;
   margin-left: 200px;
-  margin-top: 85px;
+  padding-left: 15px;
 }
 
 .image2 {
   float: left;
-  max-width: 195px;
-  max-height: 195px;
   margin-left: 150px;
-  margin-top: 85px;
 }
 
 .image3 {
   float: right;
   margin-right: 180px;
-  margin-top: 85px;
-  max-width: 195px;
-  max-height: 195px;
+}
+
+/* Panel Three */
+.panel-three {
+  display: block;
+  height: 100vh;
   position: relative;
 }
 
-.panel-three {
-  background-image: url(../assets/images/services-1.png) -10px -10px;
-  padding: 10px 10px; 
-  width: 30vh;
-  outline: 1px solid #000;
-  border-radius: 50%;
-  float: left;
-  background-repeat: no-repeat;
-  margin-left: 30px;
+.text-h4{
+  margin-bottom: 50px;
 }
 
+.image-desktop {
+  max-height: 650px;
+  max-width: 650px;
+}
+
+/* Footer */
 footer {
+  margin-top: 1050px;
   height: 120px;
   background-color: #373B47;
   color: #fff;
   bottom: 0;
+  position: relative;
 }
 
+/* Texto del footer */
 footer p {
   margin-bottom: 50px;
   padding-top: 50px;
